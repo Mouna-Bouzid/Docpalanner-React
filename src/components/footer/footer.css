@@ -1,0 +1,16 @@
+.footer{
+    
+    border-top: 0.5px solid #EEF2F2;
+}
+.footer_container{
+    margin:2% 10%;
+    font-size: 70%;
+    color: grey;
+}
+.lien{
+    color:blue;
+}
+.lien :hover{
+
+text-decoration: underline;
+}

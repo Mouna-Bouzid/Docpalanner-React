@@ -1,0 +1,58 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    top:0%;
+    padding: 0% 10%;
+    transition: box-shadow 0px 3px 10px #EEF2F2;
+    z-index: 3;
+    background-color: white;
+    opacity: 0.97;
+}
+
+.logo-docplanner{
+    width: 20%;
+    flex:0.3;
+}
+.menu_list{
+list-style: none;
+display: flex;
+justify-content: space-between;
+padding:0px;
+flex:0.24;
+}
+.dropdown_list{
+list-style: none;
+display: flex;
+flex-direction: column;
+position:absolute;
+right:8%;
+justify-content: space-around;
+padding-inline-start:0;
+box-shadow: 5px 4px 10px #ABABAB;
+z-index: 1;
+background-color: white;
+font-size: 15px;
+}
+.menu_list_item{
+    display:inline-block;
+    color:#ABABAB;
+}
+.dropdown_list_item{
+    margin:3% 0%;
+    color:#ABABAB;
+    /* width:100%; */
+    /* padding:2%; */
+    display:none; 
+}
+.menu_list_item:hover {
+    color:#00BFA5;
+    
+}
+.dropdown_list_item:hover {
+    
+    color:#00BFA5;
+    background-color: rgb(242, 253, 255);
+}
+.menu_list_item:hover .dropdown_list_item {
+    display:block;}

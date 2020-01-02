@@ -1,0 +1,24 @@
+.right{
+    width:50%;
+    text-align: start;
+    padding: 5% 2% 0% 0%;
+}
+.right p{
+    color:#747474;
+    line-height: 160%;
+}
+.right img{
+    width:65%;
+    margin-top:7%;
+}
+.right .h3{ color:#00B39B;
+    font-size:200%;
+    font-weight:bold;
+line-height: 30%;
+}
+
+.big_logo{
+    position: relative;
+    left:-18%;
+    min-width:75%;
+}

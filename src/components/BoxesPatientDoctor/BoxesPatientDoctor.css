@@ -1,0 +1,52 @@
+.p-box{
+    display:flex;
+    margin:0% 8%;
+    color:#747474;
+    word-spacing: 0.25em;
+}
+.p-box .box-container{
+    display:flex;
+    flex-direction: column;
+    padding:0% 2%;
+    text-align: justify;
+    margin-top: 5%;
+}
+.box-container img{
+   max-width: 28em;
+   margin-left:50%;
+   width:100%;
+}
+.box_specifications{
+    border-radius:5%;
+    padding:4% 20% 1% 7%;
+    margin-top: 7%;
+    overflow: hidden;
+   
+    color: #fff;
+    flex:1;
+    
+}
+.box_specifications p {
+    margin-block-start: 0%;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+.box_specifications h2 {
+    font-weight: 200;
+    font-size: 0.9em; 
+    opacity: 0.9;
+}
+.btn_img{
+    display: flex;
+   }
+.btn_select{
+    position: absolute;
+   border-style: none;
+   min-height: 6%;
+   max-width: 14%;
+   border-radius: 5%;
+    font-size: 10px;
+    padding: 0 3.7em 0 1.7em;
+    text-transform: uppercase;
+    
+  }

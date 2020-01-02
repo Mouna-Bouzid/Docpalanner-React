@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.logos .paragraph{
+  font-size: 140%;
+  color:#00CCB1;
+  flex-wrap: wrap;
+  max-width:20%;
+  text-align: start;
+  margin-top: 0px;
+}
+.biggestplateform_container{
+  display:flex;
+  background-color:#D8F6F6;
+  max-height:35em;
+  overflow: hidden;
+  display:flex;
+  padding:0% 10%;
+  overflow: hidden;
+  margin-bottom: 6%;
+}
+.box_column{
+  display: flex;
+  width:50%;
+  justify-content: space-between;
+  /* margin-right: 10%; */
+  text-align: center;
+}
+.box_column1{
+  margin-top:7%;
+}
+.box_column2{
+  margin-top:2%;
+  margin-right: 5%;
+}

@@ -1,0 +1,22 @@
+.whitebox{
+    margin: 10% 0% 0% 9%;
+    padding:0% 3% 3%;
+    height:160px;
+    background-color: white;
+    border-radius: 5%;
+    text-align: center;
+    box-shadow:whitesmoke;
+    width:12em;
+    display: block;
+    align-items: space-around;
+    padding-top: 30%;
+  }
+  .whitebox .h5{
+    color:#00B39B;
+    font-size:100%;
+  }
+  .whitebox p{
+    color:#747474;
+    font-size:80%;
+  }
+  
